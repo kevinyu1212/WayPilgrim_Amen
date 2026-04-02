@@ -4,6 +4,7 @@ import MainLayout from "./components/layouts/MainLayout";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import Bible from "./pages/Bible";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/bible" element={<Bible />} />
         </Routes>
       </MainLayout>
     </Router>
