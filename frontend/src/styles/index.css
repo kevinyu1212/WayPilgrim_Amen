@@ -1,0 +1,24 @@
+﻿@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-sanctuary-white text-gray-900 font-sans antialiased;
+  }
+  h1, h2, h3, .serif-font {
+    @apply font-sacred;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-sm rounded-2xl;
+  }
+  .btn-primary {
+    @apply bg-grace-blue text-white px-6 py-2 rounded-full hover:bg-opacity-90 transition-all;
+  }
+}
