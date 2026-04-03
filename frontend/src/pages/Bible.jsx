@@ -13,7 +13,7 @@ function Bible() {
 
       <div className="bg-white p-10 rounded-[2.5rem] shadow-sm border border-gray-100 text-center">
         <div className="w-40 h-52 bg-gradient-to-br from-amber-600 to-amber-800 rounded-3xl mx-auto flex items-center justify-center text-5xl shadow-xl mb-6">
-          📖
+          ??
         </div>
         <h2 className="text-2xl font-bold text-amber-950 mb-4">개역개정 성경</h2>
         <p className="text-amber-800 mb-10 max-w-sm mx-auto">창세기부터 요한계시록까지, 주님의 생명의 말씀 속으로 깊이 들어가세요.</p>
